@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- candy, filters -->
+  
+  <meta name="viewport" content="width=device-width">
+  <title>Bakery Menu</title>
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+  <link href='css/style.css' rel='stylesheet' type="text/css"> 
+</head>
+<body ng-app="bakeryMenuApp">
+  
+<div class="background-image"></div>
+
+<div class="wrap"  ng-controller="mainCtrl">
+  <h1><img src="assets/logo.svg" alt="yuyumbakery logo">YumYum Bakery</h1>
+
+  <div class="content">
+
+      <div class="category-tabs">
+       <ul>
+        <li class="category-active" ng-class="{'category-active':selected==='all'}">
+          <a sibling href="" ng-click="selected = 'all'; categoryList('all')">All</a>
+        </li>
+        <li ng-init="active = false"  ng-repeat="menu in menus">
+          <a sibling href="" ng-repeat="(key,val) in menu" href="" ng-click="categoryList(key)">{{key}}
+          </a>
+        </li>
+       </ul>
+      </div>
+
+      <div class="content-panel">
+
+        <div class="search-filters">
+         <div class="search">
+          <input class="search-input" ng-model="query"/>
+           <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+         <div class="filter">
+         <!--  <img src="assets/noun_742.svg" alt="gluten free icon"> -->
+          <input name="gluteen" type="checkbox" data-ng-model='search.is_gluten_free' data-ng-true-value='true' data-ng-false-value='false'>
+          <label for="glueteen">Gluten Free</label>
+          </div>
+         <div class="filter">
+          <!-- <img src="assets/vegan.svg" alt="vegan icon"> -->
+          <input name="vegan" type="checkbox" data-ng-model='search.is_vegan' data-ng-true-value='true' data-ng-false-value='false'>
+          <label for="vegan">Vegan</label>
+          </div>
+        </div>
+
+        <div class="content-menu">
+      
+          <section class="content-category" ng-repeat="menu in menus">
+
+            <div ng-repeat="(key, items) in menu" class="{{key}}" ng-show="category == key || category == 'all' ">
+             <h2>{{key}}</h2>
+             <ul>
+              <li search ng-repeat="item in items | filter:query | filter: { is_gluten_free: search.is_gluten_free, is_vegan: search.is_vegan }">
+                <div class="img-container">
+                  <img src="{{item.image_url}}" alt="{{item.name}} image">
+                </div>
+                <h3>{{item.name}}</h3>
+                <p>{{item.description}}</p>
+                <p class="price"><span>$</span>{{item.price}}</p>
+              </li>
+             </ul>
+            </div>
+
+          </section>
+
+        </div>
+
+      </div>
+    </div>
+</div>
+
+  <!-- <script src="plugins/chosen_v1.6.1/chosen.jquery.min.js" type="text/javascript"></script>
+ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
+  <script src="js/controllers/main.js" type="text/javascript"></script>
+  <script src="js/services/data.js" type="text/javascript"></script>
+  <script src="js/directives/bakerymenu.js" type="text/javascript"></script>
+</body>
+</html>

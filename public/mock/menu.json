@@ -1,0 +1,232 @@
+{
+	"menus" : [
+		{
+			"breads": [
+				{
+					"name": "Baguette",
+					"price": "5",
+					"description" : "Real French Baguette with crisp golden brown crust and soft and chewy interior",
+					"image_url": "https://static.wixstatic.com/media/a4b210_40da7240fa0ac840fb48ee8f901624f5.jpg/v1/fill/w_427,h_360,al_c,q_90/a4b210_40da7240fa0ac840fb48ee8f901624f5.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false				
+				},
+				{
+					"name": "North Sea Rye",
+					"price": "10",
+					"description" : "Dark, dense, and seedy, and in addition to heft that'll keep you going, it's packed with a wholesome flavor that's part rye, part sourdough.",
+					"image_url": "https://static.wixstatic.com/media/a4b210_025907d105e888d5122e1192495df939.jpg/v1/fill/w_480,h_405,al_c,q_90/a4b210_025907d105e888d5122e1192495df939.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false				
+				},
+				{
+					"name": "Bread Rolls",
+					"price": "15",
+					"description" : "These bread rolls are a favorite at home and good to be paired with the evening chai.",
+					"image_url": "https://static.wixstatic.com/media/a4b210_8b7cd4199b92464ba7b1430608665807.jpg/v1/fill/w_463,h_629,al_c,q_90,usm_0.66_1.00_0.01/a4b210_8b7cd4199b92464ba7b1430608665807.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false				
+				},
+				{
+					"name": "Country Loaf",
+					"price": "15",
+					"description" : "Fill the house with the aroma of freshly baked bread with this delicious artisan-style loaf.",
+					"image_url": "https://static.wixstatic.com/media/a4b210_dbafff5b4d6df1d64df22bc48d9e95a0.jpg/v1/fill/w_480,h_405,al_c,q_90/a4b210_dbafff5b4d6df1d64df22bc48d9e95a0.jpg",
+					"is_vegan": false,
+					"is_gluten_free": true			
+				},
+				{
+					"name": "Olive Loaf",
+					"price": "15",
+					"description" : "Salty olives add a depth of flavor to this rustic bread.",
+					"image_url": "https://static.wixstatic.com/media/a4b210_e7ca6e105dc386c59306869ca500a9bf.jpg/v1/fill/w_480,h_405,al_c,q_90/a4b210_e7ca6e105dc386c59306869ca500a9bf.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false				
+				},
+				{
+					"name": "Festive Challah",
+					"price": "20",
+					"description" : "Authentic seeded rye, crisp and delicious. Comes dotted with a rainbow of sesame, poppy, sunflower, pumpkin and nigella seeds.",
+					"image_url": "https://static.wixstatic.com/media/a4b210_6b618fc1b94842e482efea013afe9fb8.jpg/v1/fill/w_589,h_589,al_c,q_90/a4b210_6b618fc1b94842e482efea013afe9fb8.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false				
+				}
+			]
+		},
+		{
+			"brownies": [
+				{
+					"name": "Baker's Choice Bars Assortment",
+					"price": "45",
+					"description": "A beautiful and delicious assortment of Magnolia Bakery’s double fudge brownies, chocolate chunk blondies and magic cookie bars.",
+					"image_url": "https://pantograph0.goldbely.com/s364/uploads/product_image/image/8346/bakers-choice-bars-assortment.1ddd25a1f59a89a1de2d0583dab50000.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Chocolate Chunk Blondies",
+					"price": "45",
+					"description": "Traditional blond brownies made with brown sugar, butter and chocolate chunks.",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/6841/chocolate-chunk-blondies.4047c77fd68e370e83eee2deffcc30f1.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},		
+				{
+					"name": "Double Fudge Brownies",
+					"price": "45",
+					"description": "Soft chewy chocolate brownies. Classic!",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/6840/double-fudge-brownies.81e715bb97348f10bfe752e8e03ca540.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Magic Cookie Bars",
+					"price": "45",
+					"description": "Graham cracker crust with chocolate chips, walnuts and coconut topped with sweetened condensed milk then baked.",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/6842/magic-cookie-bars.e2e6a5013abf281473783cacad20e0d9.jpg",
+					"is_vegan": true,
+					"is_gluten_free": false
+				}	
+			]
+		},
+		{
+			"cakes": [
+				{
+					"name": "Raseberry Lemon Cake",
+					"price": "50",
+					"description": "Vanilla crème fraîche cake layered with raspberry Swiss meringue buttercream and lemon curd filling, covered with raspberry buttercream.",
+					"image_url": "http://www.empirecake.com/_main_site/wp-content/uploads/2014/12/Rasberry_Lemon_01_final_drkr-600.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},
+				{
+					"name": "Hazelnet Cake",
+					"price": "50",
+					"description": "Vanilla crème fraîche cake filled and frosted with hazelnut Swiss meringue buttercream and hazelnut praline, topped with a bittersweet chocolate glaze.",
+					"image_url": "http://www.empirecake.com/_main_site/wp-content/uploads/2014/12/Hazelnut-drkr.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},				
+				{
+					"name": "Very Vanilla Cake",
+					"price": "50",
+					"description": "Our moist vanilla crème fraîche cake filled and frosted with vanilla Swiss meringue buttercream.",
+					"image_url": "http://www.empirecake.com/_main_site/wp-content/uploads/2014/12/Vanilla_Vanilla_01_final_drkr1.jpg",
+					"is_vegan": false,
+					"is_gluten_free": true
+				},	
+				{
+					"name": "Pstachio Praline Cake",
+					"price": "65",
+					"description": "Vanilla crème fraîche cake filled and frosted with pistachio Swiss meringue buttercream and pistachio praline.",
+					"image_url": "http://www.empirecake.com/_main_site/wp-content/uploads/2014/12/Pistachio_01_final_drkr.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Banans Foster Cake",
+					"price": "65",
+					"description": "Banana cake layered with cinnamon rum Swiss meringue buttercream, caramel and walnuts.",
+					"image_url": "http://www.empirecake.com/_main_site/wp-content/uploads/2014/12/Bananas_Foster_01_final_drkr.jpg",
+					"is_vegan": true,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Salted Caramel Cake",
+					"price": "50",
+					"description": "Chocolate cake layered with salted caramel and frosted with Belgian chocolate ganache.",
+					"image_url": "http://www.empirecake.com/_main_site/wp-content/uploads/2014/12/Salted-Caramel-drkr.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Red Velvet Cake",
+					"price": "50",
+					"description": "Our moist red velvet cake filled and frosted with cream cheese frosting.",
+					"image_url": "http://www.empirecake.com/_main_site/wp-content/uploads/2014/12/RedVelvet_01_Reshoot_final_drkr.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				}	
+			]
+		},
+		{
+			"cookies": [
+				{
+					"name": "Sea Salt Caramel Cookie",
+					"price": "24",
+					"description": "A thick Chocolate chunk cookie topped with homemade caramel candy and sea salt.",
+					"image_url": "https://pantograph0.goldbely.com/s364/uploads/product_image/image/6470/sea-salt-caramel-cookie.f3a408effdacc4672292f859efc1394b.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},
+				{
+					"name": "Peanut Butter Cookies",
+					"price": "15",
+					"description": "Scrumptious peanut butter cookies made with three layers of peanut butter, peanut butter chips and peanuts.",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/6353/peanut-butter-cookies.30d19dc6fd8157ec424bb878fdd313bc.png",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},				
+				{
+					"name": "Oatmeal Raisin Cookies",
+					"price": "15",
+					"description": "Filled with warm spices, oats and raisins. A wholesome and delicious classic.",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/6845/oatmeal-raisin-cookies.2216fe1ef2ac23b49ba0e9d67190eff5.jpg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Cranberry Chocolate Chunk Cookies",
+					"price": "24",
+					"description": "Extra large chocolate cookies with white chocolate chunks, dried cranberries and toasted pecans. Soft and chewy this cookie is amazing.",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/6320/cranberry-chocolate-chunk-cookies.8ff2d8c194485b996f74c50571d25e6f.png",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Coconut Macaroons with Chocolate",
+					"price": "22",
+					"description": "A wonderfully sweet coconut flavor with a crisp exterior and a soft and chewy texture, dipped in chocolate.",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/8310/coconut-macaroons-with-chocolate.29ee10405660f855ae0883768952f355.jpeg",
+					"is_vegan": false,
+					"is_gluten_free": false
+				},	
+				{
+					"name": "Coconut Macaroons",
+					"price": "22",
+					"description": "A wonderfully sweet coconut flavor with a crisp exterior and a soft, chewy interior.",
+					"image_url": "https://pantograph0.goldbely.com/s410/uploads/product_image/image/6318/coconut-macaroons.3e5a5151a74e0dee86881237b7e036b2.png",
+					"is_vegan": true,
+					"is_gluten_free": true
+				}	
+			]
+		},
+		{
+			"candy": [
+				{
+					"name":"Pufflettes",
+					"price": "5",
+					"description": "Despite their puffed up name, Pufflettes are never pretentious. Like inverted, miniature, snow-capped mountains, the base of each proud Pufflette treat is a brilliant white hue supporting a brightly colored peak.",
+					"image_url": "http://www.candywarehouse.com/assets/item/thumbnail/pufflettes-assorted-133423-ic.jpg",
+					"is_vegan": false,
+					"is_gluten_free": true
+				},
+				{
+					"name":"Petite Swirly Ripple Lollipops",
+					"price": "4",
+					"description": "We offer this cornucopia of colors to nurture your superpower taste buds, no goat horn required.",
+					"image_url": "http://www.candywarehouse.com/assets/item/thumbnail/swipple-pops-petite-swirly-rainbow-133906-ic1.jpg",
+					"is_vegan": false,
+					"is_gluten_free": true
+				},
+				{
+					"name":"Gummy Rainforest Frogs",
+					"price": "6",
+					"description": "Shaped and textured to replicate real frogs, these exotic tropical rainforest gummy frogs feature an assortment of bright colors and perky fruit flavor combinations.",
+					"image_url": "http://www.candywarehouse.com/assets/item/thumbnail/gummi-rainforest-frogs-131871.jpg",
+					"is_vegan": false,
+					"is_gluten_free": true
+				}
+			]
+		}
+	]
+}

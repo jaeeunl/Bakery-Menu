@@ -1,0 +1,23 @@
+{
+  "name": "Bakery-Menu",
+  "version": "0.0.0",
+  "description": "Interactive bakery menu",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "jquery-lite": "^2.2.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "jaeeunlee",
+  "engines": {
+    "node": "0.12.x"
+  }
+}

@@ -41,12 +41,12 @@
           </div>
          <div class="filter">
          <!--  <img src="assets/noun_742.svg" alt="gluten free icon"> -->
-          <input name="gluteen" type="checkbox" data-ng-model='search.is_gluten_free' data-ng-true-value='true' data-ng-false-value='false'>
+          <input name="gluteen" type="checkbox" data-ng-model='search.is_gluten_free' data-ng-true-value='true' data-ng-false-value=''>
           <label for="glueteen">Gluten Free</label>
           </div>
          <div class="filter">
           <!-- <img src="assets/vegan.svg" alt="vegan icon"> -->
-          <input name="vegan" type="checkbox" data-ng-model='search.is_vegan' data-ng-true-value='true' data-ng-false-value='false'>
+          <input name="vegan" type="checkbox" data-ng-model='search.is_vegan' data-ng-true-value='true' data-ng-false-value=''>
           <label for="vegan">Vegan</label>
           </div>
         </div>
@@ -57,8 +57,8 @@
 
             <div ng-repeat="(key, items) in menu" class="{{key}}" ng-show="category == key || category == 'all' ">
              <h2>{{key}}</h2>
-             <ul>
-              <li search ng-repeat="item in items | filter:query | filter: { is_gluten_free: search.is_gluten_free, is_vegan: search.is_vegan }">
+             <ul list>
+              <li class="menu-item" ng-repeat="item in items | filter:query | filter: { is_gluten_free: search.is_gluten_free, is_vegan: search.is_vegan }">
                 <div class="img-container">
                   <img src="{{item.image_url}}" alt="{{item.name}} image">
                 </div>

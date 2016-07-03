@@ -216,7 +216,7 @@
 					"description": "We offer this cornucopia of colors to nurture your superpower taste buds, no goat horn required.",
 					"image_url": "http://www.candywarehouse.com/assets/item/thumbnail/swipple-pops-petite-swirly-rainbow-133906-ic1.jpg",
 					"is_vegan": false,
-					"is_gluten_free": true
+					"is_gluten_free": false
 				},
 				{
 					"name":"Gummy Rainforest Frogs",
@@ -224,7 +224,7 @@
 					"description": "Shaped and textured to replicate real frogs, these exotic tropical rainforest gummy frogs feature an assortment of bright colors and perky fruit flavor combinations.",
 					"image_url": "http://www.candywarehouse.com/assets/item/thumbnail/gummi-rainforest-frogs-131871.jpg",
 					"is_vegan": false,
-					"is_gluten_free": true
+					"is_gluten_free": false
 				}
 			]
 		}

@@ -22,7 +22,7 @@
 
       <div class="category-tabs">
        <ul>
-        <li class="category-active" ng-class="{'category-active':selected==='all'}">
+        <li tab class="category-all category-active" ng-class="{'category-active':selected==='all'}">
           <a sibling href="" ng-click="selected = 'all'; categoryList('all')">All</a>
         </li>
         <li ng-init="active = false"  ng-repeat="menu in menus">

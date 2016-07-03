@@ -290,12 +290,26 @@ p {
 }
 
 .content-category {
-	// display: inline-block;
-	// > div {
-	// 	display: inline-block;
-	// }
 	max-width: 350px;
 	margin: 0 auto;
+	&.searched {
+		display:inline;
+		> div {
+			display: inline;
+			h2 {
+				display: none;
+			}
+			ul {
+				display: inline;
+				li {
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+	&.empty-section {
+		display: none;
+	}
 	@include breakpoint(phablet) {
 		// flex-shrink: .5;
 		// -webkit-flex-shrink: .5;
